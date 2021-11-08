@@ -1,0 +1,72 @@
+/* Remove the CSS styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  width: 320px;
+  height: 2255px;
+}
+
+.hero {
+  position: relative;
+  width: 290px;
+  height: 472px;
+  background-color: #31383e;
+  background-size: cover;
+
+  .hero__background-image {
+    position: absolute;
+    width: 290px;
+    height: 472px;
+    background: url("/images/Layer_3.jpg") no-repeat center; /* The image used */
+    background-size: cover;
+    opacity: 0.71;
+  }
+
+  .hero__content-header {
+    padding-top: 32px;
+    width: 260px;
+    height: 88px;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 28px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+  }
+
+  .hero__content-text--lato {
+    // Style for "Improve bu"
+    width: 258px;
+    height: 132px;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    // Text style for "Improve bu"
+    font-family: Lato;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+  }
+  .hero__content-text--myriad {
+    // Text style for "doloremque"
+    font-family: "Myriad Pro - Regular";
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+  }
+}
